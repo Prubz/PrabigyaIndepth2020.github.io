@@ -1,0 +1,397 @@
+
+ div{ 
+    display: block;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+
+margin: auto;
+color: black;
+text-align: center;
+font-family: 'IBM Plex Serif',serif;
+}
+
+
+.food {
+background-color: black;
+color: white;
+margin: auto;
+padding: 100;
+width: 85%;
+height: 10%;
+background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.3), rgba(255,255,255,1));
+}
+
+
+.parallax {
+  background-image: url(wow.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url(background.jpeg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url(food10.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -3; 
+  position: relative;  
+}
+
+
+.foregroundpicture{
+  background-image: url(wow.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -3; 
+}
+
+.foregroundpicture1{
+  background-image: url(1a.jpg);
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -3; 
+  position: relative;   
+}
+
+.foregroundpicture p{
+  z-index: 1;
+}
+
+.foregroundpicture1 p{
+  z-index: 1;
+}
+
+.midbox{
+    width: 60%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 5px 20px;
+    border-width: 8px;
+    border-style: double;
+    border-radius: 3PX;
+    border-color: dimgray;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px; 
+    font-family: 'Tangerine';
+}
+
+.optext {
+ text-align: center;
+ font-size: 128px;
+ font-family: 'Tangerine' , cursive;
+ margin-top: 0;
+ padding-top: 300px;
+ -webkit-text-stroke: 1px black;
+   color: gainsboro;
+   text-shadow:
+       3px 3px 0 #000,
+       -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  
+    .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.leftboxes {
+    width: 60%;
+    height: auto;
+    background-color: black;
+    text-align: left;
+    color: white;
+    margin: 0;
+    border-radius: 3PX;
+    border-color: dimgray;
+    padding: 0px 15px;
+    float: left;
+    border-width: 8px;
+    border-left-width: 0px;
+    border-style: double;
+    position: absolute;
+    
+}
+
+
+.rightboxes {
+    width: 60%;
+    height: auto;
+    background-color: black;
+    text-align: left;
+    color: white;
+    border-radius: 3PX;
+    border-color: dimgray;
+    padding: 0px 15px;
+    float: right;
+    border-width: 8px;
+    border-right-width: 0px;
+    border-style: double;
+    margin-top: 130px;
+}
+
+
+.midboxes {
+    width: 60%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0;
+    float: left;
+    padding: 5px 20px;
+    border-width: 8px;
+    border-bottom-width: 0px;
+    border-style: double;
+    border-radius: 3PX;
+    border-color: dimgray;
+    bottom: 0;
+    position: absolute;
+    transform: translate(310px, 0px)
+}
+.nani {
+    background-size: cover;
+    width: 100%;
+    font-family: comic sans ms;
+    background-image: url(pic.JPG);
+    font-style: italic;
+    margin: 0px;
+    height: 100px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 48PX;
+    position: relative;
+    border-color: darkgray;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.nani1 {
+     background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5), rgba(0,0,0,.7));
+     position: absolute;
+     width: inherit;
+     height: inherit;
+     margin: inherit;
+     padding: inherit;
+     -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+
+    
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h2,
+h3,
+a {
+	color: rgba(225,225,225,1);
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+    font-size: 1em;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	
+	font-size: .99em;
+    transition: all 0.5s ease;
+}
+
+.main-nav a:hover {
+	color: rgba(255,255,255,1);
+}
+
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	
+	background-color: rgba(0,0,0,0.7);
+	
+    position: fixed;
+    z-index: 1000;
+}
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+        
+    }
+    .header{
+	    width: 100%;
+		margin: 0 auto;
+		transition: 1s;
+	}
+	}
+
+.scrolled {
+    
+        flex-direction: row !important;
+		justify-content: space-between !important;
+        align-items: stretch !important;
+}
+
+.element {
+  height: 250px;
+  width: 75px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 4s; 
+  animation-timing-function: ease;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(-0.5);
+    background-color: #ff4500;
+    border-radius: 100%;
+    }
+
+ 50% {
+    
+    background-color: salmon;
+  }
+ 
+      
+ 100% {
+    transform: scale(3);
+    background-color: #F9906F;
+    border-radius: 100%;
+}
+}
+
+a {
+    text-align: center
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,0,0,1)
+}
+::-webkit-scrollbar-thumb:hover {
+  background: RGBA(255,100,30,1);
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: center;
+    
+}
+th, td {
+  padding: 15px;
+}
+
+table {
+  
+  width: 100%;
+}
+
+
+ol li{
+    
+font-size: 26px;
+font-family: 'IBM Plex Serif',serif; 
+}
+
+canvas {
+    border-color: white;
+    border-width: 2px;
+    border-style: double;
+}
